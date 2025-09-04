@@ -1,6 +1,7 @@
 body {
   font-family: "Press Start 2P", cursive;
-  background-color: #78b9b5;
+  background-color: #8675a9;
+  background: url("images/mixsage.png") no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -12,11 +13,11 @@ body {
 
 .container {
   text-align: center;
-  background: #0f828c;
+  background: #c3aed6;
   padding: 30px;
   border: 4px solid #fff;
   border-radius: 8px;
-  box-shadow: 0px 0px 30px #26667f;
+  box-shadow: 0px 0px 30px #312a32;
   max-width: 500px;
   width: 90%; /* fleksibel di semua layar */
 }
@@ -156,37 +157,29 @@ button:active {
 }
 
 /* HP kecil */
-@media (max-width: 480px) {
-  .container {
-    padding: 20px;
-  }
-  h1 {
-    font-size: 16px;
-  }
-  #timer {
-    font-size: 28px;
-  }
-  button {
-    width: 100%; /* tombol penuh biar mudah ditekan */
-    margin: 8px 0;
-    font-size: 12px;
-    padding: 12px;
-  }
-  .time-settings {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  #custom-minutes {
-    width: 100%;
-  }
+@media (max-width: 768px) {
+  button,
   #set-custom-time {
-    width: 100%;
-    margin-left: 0;
+    padding: 8px 10px; /* tombol jadi lebih kecil */
+    font-size: 8px; /* ukuran teks lebih kecil */
+    margin: 5px; /* jarak antar tombol lebih rapat */
   }
+
+  #custom-minutes {
+    width: 120px; /* input lebih ramping */
+    font-size: 10px;
+    padding: 6px;
+  }
+
+  h1 {
+    font-size: 14px; /* judul juga lebih kecil biar rapi */
+  }
+
+  #timer {
+    font-size: 24px; /* timer juga diperkecil */
+  }
+
   #progress-container {
-    height: 18px;
+    height: 18px; /* progress bar lebih tipis */
   }
 }
