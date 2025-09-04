@@ -59,7 +59,7 @@ Desktop → Timer and Mode buttons are displayed side by side.
 
 Mobile → Timer and Mode buttons are stacked vertically.
 
-##👨‍💻 Contribution
+## 👨‍💻 Contribution
 
 Contributions, pull requests, and suggestions are always welcome!
 If you encounter any issues, please open an [Issue](https://github.com/pahrifdzz)
