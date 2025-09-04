@@ -31,6 +31,7 @@ This app supports **Pomodoro, Short Break, Long Break modes**, custom timer inpu
 4. Open index.html in your favourite browser
 
 ## 📂 Project Structure
+```bash
 reponame/
 │── index.html       # Main HTML file
 │── style.css        # Stylesheet
@@ -38,7 +39,7 @@ reponame/
 │── images/          # Background images
 │── sounds/          # Alarm audio files
 │── README.md        # Documentation
-
+```
 ## 🌐 Deployment
 
 This project is ready to be deployed on Vercel
