@@ -29,3 +29,31 @@ This app supports **Pomodoro, Short Break, Long Break modes**, custom timer inpu
    cd reponame
 
 4. Open index.html in your favourite browser
+
+## 📂 Project Structure
+reponame/
+│── index.html       # Main HTML file
+│── style.css        # Stylesheet
+│── script.js        # Timer logic & alarm
+│── images/          # Background images
+│── sounds/          # Alarm audio files
+│── README.md        # Documentation
+
+## 🌐 Deployment
+
+This project is ready to be deployed on Vercel
+, or any static hosting service like:
+
+GitHub Pages
+
+Netlify
+
+Surge   
+
+## 📸 Preview
+
+The design is responsive:
+
+Desktop → Timer and Mode buttons are displayed side by side.
+
+Mobile → Timer and Mode buttons are stacked vertically.
