@@ -25,6 +25,7 @@ This app supports **Pomodoro, Short Break, Long Break modes**, custom timer inpu
    git clone https://github.com/username/reponame.git
    
 2. Navigate to the project folder
+   ```bash
    cd reponame
 
-3. Open index.html in your favourite browser
+4. Open index.html in your favourite browser
