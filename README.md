@@ -62,5 +62,4 @@ Mobile → Timer and Mode buttons are stacked vertically.
 ##👨‍💻 Contribution
 
 Contributions, pull requests, and suggestions are always welcome!
-If you encounter any issues, please open an Issue(https://github.com/pahrifdzz)
-.
+If you encounter any issues, please open an [Issue](https://github.com/pahrifdzz)
